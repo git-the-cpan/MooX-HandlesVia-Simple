@@ -1,0 +1,52 @@
+---
+abstract: 'A MooX::HandlesVia fast version, with no check, inserting code references'
+author:
+  - 'Jean-Damien Durand <jeandamiendurand@free.fr>'
+build_requires:
+  Data::Perl::Collection::Hash::MooseLike: '0'
+  ExtUtils::MakeMaker: '0'
+  File::Spec: '0'
+  File::Temp: '0'
+  IO::Handle: '0'
+  IPC::Open3: '0'
+  Test::Exception: '0'
+  Test::More: '0'
+  blib: '1.01'
+  perl: '5.010'
+configure_requires:
+  ExtUtils::MakeMaker: '0'
+  perl: '5.010'
+dynamic_config: 1
+generated_by: 'Dist::Zilla version 5.043, CPAN::Meta::Converter version 2.150005'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: MooX-HandlesVia-Simple
+no_index:
+  directory:
+    - examples
+    - t
+    - xt
+provides:
+  MooX::HandlesVia::Simple:
+    file: lib/MooX/HandlesVia/Simple.pm
+    version: '0.001'
+requires:
+  Data::Perl::Role::Bool: '0'
+  Data::Perl::Role::Code: '0'
+  Data::Perl::Role::Number: '0'
+  Data::Perl::Role::String: '0'
+  Moo: '0'
+  Moo::Role: '0'
+  Type::Utils: '0'
+  Types::Standard: '0'
+  perl: '5.010'
+  strict: '0'
+  warnings: '0'
+resources:
+  bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=MooX-HandlesVia-Simple
+  homepage: https://metacpan.org/release/MooX-HandlesVia-Simple
+  repository: git://github.com/jddurand/moox-handlesvia-simple.git
+version: '0.001'
+x_authority: cpan:JDDPAUSE

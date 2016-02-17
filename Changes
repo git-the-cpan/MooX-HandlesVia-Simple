@@ -1,0 +1,13 @@
+Changelog for MooX-HandlesVia-Simple
+
+0.001 2016-02-17T20:35:17
+ [Jean-Damien Durand <jeandamiendurand@free.fr>]
+ - For first release
+ - HandlesVia/Simple.pm: Import String, Number, Bool and Code facilities
+   from MooX::HandlesVia
+ - Copies from MooX::HandlesVia 0.001008
+ - dist.ini .gitignore .gitattributes
+ - HandlesVia/Simple.pm: commit factorization applied to Hash
+ - HandlesVia/Simple.pm: commit factorization
+ - Hash and Array
+ - HandlesVia/Simple.pm: proof of concept
